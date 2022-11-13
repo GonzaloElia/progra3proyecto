@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
-function App() {
+import MainNav from './src/navigation/MainNav';
+import Login from './src/screens/Login/Login';
+
+
+export default function App() {
   return (
-    <View>
-      <Text>Hola mundo!</Text>
-    </View>
+    <MainNav/>
   );
 }
-export default App
